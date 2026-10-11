@@ -36,7 +36,7 @@ class AlertsPage(BasePage):
 
     @property
     def confirm_result(self) -> Locator:
-        return self.page.locator("#confirmResult")
+        return self.page.locator("#confirm-result-text")
 
     @property
     def prompt_result(self) -> Locator:

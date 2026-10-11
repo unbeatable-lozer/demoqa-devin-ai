@@ -25,7 +25,7 @@ class PracticeFormPage(BasePage):
 
     def fill(self, s: Student):
         p = self.page
-        p.fill("#firstName", s.first_name)
+        p.fill("#first-name-input", s.first_name)
         p.fill("#lastName", s.last_name)
         p.fill("#userEmail", s.email)
         p.locator("#genterWrapper label").get_by_text(s.gender, exact=True).click()

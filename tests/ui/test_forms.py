@@ -70,4 +70,4 @@ def test_invalid_mobile_is_rejected(form, page, mobile):
     form.fill(Student(first_name="Ana", last_name="Lee", email="", gender="Other", mobile=mobile))
     form.submit()
     expect(form.modal_title).to_have_count(0)
-    assert page.locator("#userNumber").evaluate("e => e.matches(':invalid')")
+    assert page.locator("#user-number").evaluate("e => e.matches(':invalid')")

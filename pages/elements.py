@@ -7,7 +7,7 @@ class TextBoxPage(BasePage):
     path = "/text-box"
 
     def submit(self, name: str, email: str, current_address: str, permanent_address: str):
-        self.page.fill("#userName", name)
+        self.page.fill("#user-name", name)
         self.page.fill("#userEmail", email)
         self.page.fill("#currentAddress", current_address)
         self.page.fill("#permanentAddress", permanent_address)
@@ -93,7 +93,7 @@ class ButtonsPage(BasePage):
     path = "/buttons"
 
     def double_click(self):
-        self.page.dblclick("#doubleClickBtn")
+        self.page.dblclick("#double-click-btn")
 
     def right_click(self):
         self.page.click("#rightClickBtn", button="right")
