@@ -28,7 +28,7 @@ class TestProgressBar:
         pb.start_stop.click()
         expect(pb.bar).to_have_attribute("aria-valuenow", "100", timeout=20_000)
         expect(pb.bar).to_have_class(re.compile("bg-success"))
-        page.click("#resetButton")
+        page.click("#reset-btn")
         expect(pb.bar).to_have_attribute("aria-valuenow", "0")
 
     def test_stop_pauses_progress(self, page):

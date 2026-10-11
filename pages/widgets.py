@@ -22,7 +22,7 @@ class ProgressBarPage(BasePage):
 
     @property
     def start_stop(self) -> Locator:
-        return self.page.locator("#startStopButton")
+        return self.page.locator("#start-stop-btn")
 
 
 class SliderPage(BasePage):
@@ -38,7 +38,7 @@ class SliderPage(BasePage):
 
     @property
     def value_box(self) -> Locator:
-        return self.page.locator("#sliderValue")
+        return self.page.locator("#slider-value-input")
 
 
 class TabsPage(BasePage):

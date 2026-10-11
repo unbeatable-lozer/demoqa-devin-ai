@@ -1,6 +1,8 @@
 import re
 
 import pytest
+from playwright.sync_api import TimeoutError as PWTimeout
+
 from healing import expect
 
 from pages.elements import (
@@ -86,7 +88,7 @@ class TestWebTables:
         page.get_by_role("button", name="Add").click()
         page.click("#submit")
         expect(wt.modal).to_be_visible()
-        expect(page.locator("#userForm")).to_have_class(re.compile("was-validated"))
+        expect(page.locator("#user-form")).to_have_class(re.compile("was-validated"))
 
     def test_edit_record(self, page):
         wt = WebTablesPage(page).open()
@@ -157,3 +159,9 @@ class TestUploadDownload:
         target = tmp_path / download.suggested_filename
         download.save_as(target)
         assert target.stat().st_size > 0
+
+
+@pytest.mark.xfail(strict=True, raises=PWTimeout, reason="healing demo: no plausible match exists")
+def test_unhealable_locator_is_reported(page):
+    ButtonsPage(page).open()
+    page.click("#launch-rocket", timeout=3_000)
