@@ -3,6 +3,10 @@ import re
 import pytest
 from playwright.sync_api import Page, expect
 
+from healing import HealingPage
+
+pytest_plugins = ["healing.plugin"]
+
 AD_HOSTS = re.compile(
     r"(googlesyndication|doubleclick|googletagservices|adservice\.google|"
     r"google-analytics|googletagmanager|adsrvr|pubmatic|rubiconproject|"
@@ -17,8 +21,14 @@ def browser_context_args(browser_context_args):
     return {**browser_context_args, "viewport": {"width": 1920, "height": 1080}}
 
 
+@pytest.fixture
+def page(page: Page) -> HealingPage:
+    """Every selector used through this page heals itself when it stops matching."""
+    return HealingPage(page)
+
+
 @pytest.fixture(autouse=True)
-def block_ads(page: Page):
+def block_ads(page: HealingPage):
     """demoqa.com serves heavy ads that slow pages and overlay buttons."""
     page.route(AD_HOSTS, lambda route: route.abort())
     page.set_default_timeout(15_000)

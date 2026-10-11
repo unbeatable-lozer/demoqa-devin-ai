@@ -1,0 +1,2682 @@
+{
+ "/accordian :: .accordion-button": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "accordion-button"
+  ],
+  "context": "",
+  "id": "",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "accordion-header"
+   ],
+   "id": "",
+   "tag": "h2"
+  },
+  "rect": [
+   346,
+   277,
+   1072,
+   52
+  ],
+  "tag": "button",
+  "text": "Where does it come from?",
+  "visible": true
+ },
+ "/alerts :: #alertButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Click Button to see alert",
+  "id": "alertButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   894,
+   223,
+   95,
+   38
+  ],
+  "tag": "button",
+  "text": "Click me",
+  "visible": true
+ },
+ "/alerts :: #confirmButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "On button click, confirm box will appear",
+  "id": "confirmButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   894,
+   271,
+   95,
+   38
+  ],
+  "tag": "button",
+  "text": "Click me",
+  "visible": true
+ },
+ "/alerts :: #confirmResult": {
+  "attrs": {},
+  "classes": [
+   "text-success"
+  ],
+  "context": "On button click, confirm box will appear",
+  "id": "confirmResult",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   664,
+   349,
+   127,
+   19
+  ],
+  "tag": "span",
+  "text": "You selected Ok",
+  "visible": true
+ },
+ "/alerts :: #promptResult": {
+  "attrs": {},
+  "classes": [
+   "text-success"
+  ],
+  "context": "On button click, prompt box will appear",
+  "id": "promptResult",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   662,
+   411,
+   184,
+   19
+  ],
+  "tag": "span",
+  "text": "You entered Playwright",
+  "visible": true
+ },
+ "/alerts :: #promtButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "On button click, prompt box will appear",
+  "id": "promtButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   894,
+   333,
+   95,
+   38
+  ],
+  "tag": "button",
+  "text": "Click me",
+  "visible": true
+ },
+ "/alerts :: #timerAlertButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "On button click, alert will appear after 5 seconds",
+  "id": "timerAlertButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   894,
+   285,
+   95,
+   38
+  ],
+  "tag": "button",
+  "text": "Click me",
+  "visible": true
+ },
+ "/automation-practice-form :: #closeLargeModal": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "",
+  "id": "closeLargeModal",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "modal-footer"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1273,
+   589,
+   70,
+   38
+  ],
+  "tag": "button",
+  "text": "Close",
+  "visible": true
+ },
+ "/automation-practice-form :: #currentAddress": {
+  "attrs": {
+   "placeholder": "Current Address"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Current Address",
+  "id": "currentAddress",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   604,
+   799,
+   134
+  ],
+  "tag": "textarea",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #example-modal-sizes-title-lg": {
+  "attrs": {},
+  "classes": [
+   "modal-title",
+   "h4"
+  ],
+  "context": "",
+  "id": "example-modal-sizes-title-lg",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "modal-header"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   577,
+   4,
+   374,
+   36
+  ],
+  "tag": "div",
+  "text": "Thanks for submitting the form",
+  "visible": true
+ },
+ "/automation-practice-form :: #firstName": {
+  "attrs": {
+   "placeholder": "First Name",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Name",
+  "id": "firstName",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-4",
+    "col-sm-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   255,
+   342,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #lastName": {
+  "attrs": {
+   "placeholder": "Last Name",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Name",
+  "id": "lastName",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-4",
+    "col-sm-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1077,
+   255,
+   342,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #react-select-3-input": {
+  "attrs": {
+   "role": "combobox",
+   "type": "text"
+  },
+  "classes": [],
+  "context": "Select State",
+  "id": "react-select-3-input",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "css-19bb58m"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   630,
+   753,
+   5,
+   24
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #react-select-4-input": {
+  "attrs": {
+   "role": "combobox",
+   "type": "text"
+  },
+  "classes": [],
+  "context": "Select City",
+  "id": "react-select-4-input",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "css-19bb58m"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   996,
+   753,
+   5,
+   24
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #subjectsInput": {
+  "attrs": {
+   "role": "combobox",
+   "type": "text"
+  },
+  "classes": [
+   "subjects-auto-complete__input"
+  ],
+  "context": "",
+  "id": "subjectsInput",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "subjects-auto-complete__input-container",
+    "css-19bb58m"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   630,
+   480,
+   5,
+   24
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #submit": {
+  "attrs": {
+   "type": "submit"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "",
+  "id": "submit",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "text-right",
+    "col-md-2",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1259,
+   808,
+   83,
+   38
+  ],
+  "tag": "button",
+  "text": "Submit",
+  "visible": true
+ },
+ "/automation-practice-form :: #uploadPicture": {
+  "attrs": {
+   "type": "file"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Picture",
+  "id": "uploadPicture",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   558,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #userEmail": {
+  "attrs": {
+   "placeholder": "name@example.com",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Email",
+  "id": "userEmail",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   301,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #userForm": {
+  "attrs": {},
+  "classes": [
+   "was-validated"
+  ],
+  "context": "Practice Form Student Registration Form",
+  "id": "userForm",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "practice-form-wrapper"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   255,
+   1074,
+   591
+  ],
+  "tag": "form",
+  "text": "",
+  "visible": true
+ },
+ "/automation-practice-form :: #userNumber": {
+  "attrs": {
+   "placeholder": "Mobile Number",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Mobile(10 Digits)",
+  "id": "userNumber",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   381,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/books :: #ISBN-wrapper #userName-value": {
+  "attrs": {},
+  "classes": [
+   "form-label",
+   "col-form-label",
+   "col-form-label-sm",
+   "col"
+  ],
+  "context": "ISBN:",
+  "id": "userName-value",
+  "label": "9781449325862",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   269,
+   116,
+   31
+  ],
+  "tag": "label",
+  "text": "9781449325862",
+  "visible": true
+ },
+ "/books :: #author-wrapper #userName-value": {
+  "attrs": {},
+  "classes": [
+   "form-label",
+   "col-form-label",
+   "col-form-label-sm",
+   "col"
+  ],
+  "context": "Author :",
+  "id": "userName-value",
+  "label": "Richard E. Silverman",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   386,
+   146,
+   31
+  ],
+  "tag": "label",
+  "text": "Richard E. Silverman",
+  "visible": true
+ },
+ "/books :: #searchBox": {
+  "attrs": {
+   "placeholder": "Type to search",
+   "type": "text"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Login",
+  "id": "searchBox",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "input-group"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   132,
+   667,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/books :: #title-wrapper #userName-value": {
+  "attrs": {},
+  "classes": [
+   "form-label",
+   "col-form-label",
+   "col-form-label-sm",
+   "col"
+  ],
+  "context": "Title :",
+  "id": "userName-value",
+  "label": "Git Pocket Guide",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   308,
+   116,
+   31
+  ],
+  "tag": "label",
+  "text": "Git Pocket Guide",
+  "visible": true
+ },
+ "/books :: [id='see-book-Git Pocket Guide'] a": {
+  "attrs": {
+   "href": "/books?search=9781449325862"
+  },
+  "classes": [],
+  "context": "",
+  "id": "",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "mr-2"
+   ],
+   "id": "see-book-Git Pocket Guide",
+   "tag": "span"
+  },
+  "rect": [
+   489,
+   271,
+   133,
+   19
+  ],
+  "tag": "a",
+  "text": "Git Pocket Guide",
+  "visible": true
+ },
+ "/browser-windows :: #tabButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Browser Windows New Window New Window Message",
+  "id": "tabButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "tabButtonWrapper",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   223,
+   93,
+   38
+  ],
+  "tag": "button",
+  "text": "New Tab",
+  "visible": true
+ },
+ "/browser-windows :: #windowButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-4",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Browser Windows New Tab New Window Message",
+  "id": "windowButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "windowButtonWrapper",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   285,
+   129,
+   38
+  ],
+  "tag": "button",
+  "text": "New Window",
+  "visible": true
+ },
+ "/buttons :: #doubleClickBtn": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Buttons Right Click Me Click Me",
+  "id": "doubleClickBtn",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   223,
+   155,
+   38
+  ],
+  "tag": "button",
+  "text": "Double Click Me",
+  "visible": true
+ },
+ "/buttons :: #doubleClickMessage": {
+  "attrs": {},
+  "classes": [],
+  "context": "Buttons Double Click Me Right Click Me Click Me",
+  "id": "doubleClickMessage",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   385,
+   1074,
+   24
+  ],
+  "tag": "p",
+  "text": "You have done a double click",
+  "visible": true
+ },
+ "/buttons :: #dynamicClickMessage": {
+  "attrs": {},
+  "classes": [],
+  "context": "Buttons Double Click Me Right Click Me Click Me",
+  "id": "dynamicClickMessage",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   385,
+   1074,
+   24
+  ],
+  "tag": "p",
+  "text": "You have done a dynamic click",
+  "visible": true
+ },
+ "/buttons :: #rightClickBtn": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Buttons Double Click Me Click Me",
+  "id": "rightClickBtn",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "mt-4"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   285,
+   140,
+   38
+  ],
+  "tag": "button",
+  "text": "Right Click Me",
+  "visible": true
+ },
+ "/buttons :: #rightClickMessage": {
+  "attrs": {},
+  "classes": [],
+  "context": "Buttons Double Click Me Right Click Me Click Me",
+  "id": "rightClickMessage",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   385,
+   1074,
+   24
+  ],
+  "tag": "p",
+  "text": "You have done a right click",
+  "visible": true
+ },
+ "/checkbox :: #result": {
+  "attrs": {},
+  "classes": [
+   "display-result",
+   "mt-4"
+  ],
+  "context": "Home",
+  "id": "result",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "check-box-tree-wrapper"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   273,
+   1074,
+   48
+  ],
+  "tag": "div",
+  "text": "",
+  "visible": true
+ },
+ "/checkbox :: [aria-label='Select Desktop']": {
+  "attrs": {
+   "aria-label": "Select Desktop",
+   "role": "checkbox"
+  },
+  "classes": [
+   "rc-tree-checkbox"
+  ],
+  "context": "Desktop",
+  "id": "",
+  "label": "Select Desktop",
+  "name": "",
+  "parent": {
+   "classes": [
+    "rc-tree-treenode",
+    "rc-tree-treenode-switcher-close"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   383,
+   254,
+   13,
+   13
+  ],
+  "tag": "span",
+  "text": "",
+  "visible": true
+ },
+ "/checkbox :: [aria-label='Select Home']": {
+  "attrs": {
+   "aria-label": "Select Home",
+   "role": "checkbox"
+  },
+  "classes": [
+   "rc-tree-checkbox"
+  ],
+  "context": "Home",
+  "id": "",
+  "label": "Select Home",
+  "name": "",
+  "parent": {
+   "classes": [
+    "rc-tree-treenode",
+    "rc-tree-treenode-switcher-close",
+    "rc-tree-treenode-leaf-last"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   367,
+   154,
+   13,
+   13
+  ],
+  "tag": "span",
+  "text": "",
+  "visible": true
+ },
+ "/checkbox :: [role=treeitem]:has([title='Home']) .rc-tree-switcher": {
+  "attrs": {},
+  "classes": [
+   "rc-tree-switcher",
+   "rc-tree-switcher_close"
+  ],
+  "context": "Home",
+  "id": "",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "rc-tree-treenode",
+    "rc-tree-treenode-switcher-close",
+    "rc-tree-treenode-leaf-last"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   346,
+   151,
+   16,
+   16
+  ],
+  "tag": "span",
+  "text": "",
+  "visible": true
+ },
+ "/droppable :: #simpleDropContainer #draggable": {
+  "attrs": {},
+  "classes": [
+   "drag-box",
+   "mt-4",
+   "ui-draggable",
+   "ui-draggable-handle"
+  ],
+  "context": "Drop Here",
+  "id": "draggable",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "simple-drop-container"
+   ],
+   "id": "simpleDropContainer",
+   "tag": "div"
+  },
+  "rect": [
+   614,
+   289,
+   100,
+   40
+  ],
+  "tag": "div",
+  "text": "Drag Me",
+  "visible": true
+ },
+ "/droppable :: #simpleDropContainer #droppable": {
+  "attrs": {},
+  "classes": [
+   "drop-box"
+  ],
+  "context": "Drag Me",
+  "id": "droppable",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "simple-drop-container"
+   ],
+   "id": "simpleDropContainer",
+   "tag": "div"
+  },
+  "rect": [
+   999,
+   205,
+   150,
+   150
+  ],
+  "tag": "div",
+  "text": "Drop Here",
+  "visible": true
+ },
+ "/droppable :: #simpleDropContainer #droppable.ui-droppable": {
+  "attrs": {},
+  "classes": [
+   "drop-box",
+   "ui-droppable"
+  ],
+  "context": "Drag Me",
+  "id": "droppable",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "simple-drop-container"
+   ],
+   "id": "simpleDropContainer",
+   "tag": "div"
+  },
+  "rect": [
+   999,
+   281,
+   150,
+   150
+  ],
+  "tag": "div",
+  "text": "Drop Here",
+  "visible": true
+ },
+ "/dynamic-properties :: #colorChange": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-4",
+   "text-danger",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "",
+  "id": "colorChange",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   349,
+   134,
+   38
+  ],
+  "tag": "button",
+  "text": "Color Change",
+  "visible": true
+ },
+ "/dynamic-properties :: #enableAfter": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-4",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Dynamic Properties This text has random Id Color Change",
+  "id": "enableAfter",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   287,
+   200,
+   38
+  ],
+  "tag": "button",
+  "text": "Will enable 5 seconds",
+  "visible": true
+ },
+ "/dynamic-properties :: #visibleAfter": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-4",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Dynamic Properties This text has random Id Will enable 5 seconds Color Change",
+  "id": "visibleAfter",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   411,
+   209,
+   38
+  ],
+  "tag": "button",
+  "text": "Visible After 5 Seconds",
+  "visible": true
+ },
+ "/login :: #login": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "New User",
+  "id": "login",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "text-right",
+    "button",
+    "col-auto"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1349,
+   451,
+   69,
+   38
+  ],
+  "tag": "button",
+  "text": "Login",
+  "visible": true
+ },
+ "/login :: #output #name": {
+  "attrs": {},
+  "classes": [
+   "mb-1"
+  ],
+  "context": "Welcome, Login in Book Store UserName : Password : Login New User",
+  "id": "name",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-12",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   513,
+   1074,
+   24
+  ],
+  "tag": "p",
+  "text": "Invalid username or password!",
+  "visible": true
+ },
+ "/login :: #password": {
+  "attrs": {
+   "placeholder": "Password",
+   "type": "password"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Password :",
+  "id": "password",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   389,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/login :: #userName": {
+  "attrs": {
+   "placeholder": "UserName",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "UserName :",
+  "id": "userName",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   343,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/modal-dialogs :: #closeLargeModal": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "",
+  "id": "closeLargeModal",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "modal-footer"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1273,
+   302,
+   70,
+   38
+  ],
+  "tag": "button",
+  "text": "Close",
+  "visible": true
+ },
+ "/modal-dialogs :: #closeSmallModal": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Small Modal This is a small modal. It has very less content",
+  "id": "closeSmallModal",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "modal-footer"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1023,
+   154,
+   70,
+   38
+  ],
+  "tag": "button",
+  "text": "Close",
+  "visible": true
+ },
+ "/modal-dialogs :: #showLargeModal": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-2",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Click on button to see modal Small modal",
+  "id": "showLargeModal",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   470,
+   179,
+   126,
+   38
+  ],
+  "tag": "button",
+  "text": "Large modal",
+  "visible": true
+ },
+ "/modal-dialogs :: #showSmallModal": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mr-4",
+   "mt-2",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Click on button to see modal Large modal",
+  "id": "showSmallModal",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   255,
+   125,
+   38
+  ],
+  "tag": "button",
+  "text": "Small modal",
+  "visible": true
+ },
+ "/profile :: #userName-value": {
+  "attrs": {},
+  "classes": [
+   "form-label",
+   "col-form-label",
+   "col-form-label-sm",
+   "col"
+  ],
+  "context": "User Name :Logout",
+  "id": "userName-value",
+  "label": "qa_3610b4598b",
+  "name": "",
+  "parent": {
+   "classes": [
+    "ms-auto",
+    "text-end",
+    "col-md-4",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1204,
+   146,
+   114,
+   31
+  ],
+  "tag": "label",
+  "text": "qa_3610b4598b",
+  "visible": true
+ },
+ "/progress-bar :: #progressBar [role=progressbar]": {
+  "attrs": {
+   "role": "progressbar"
+  },
+  "classes": [
+   "progress-bar",
+   "bg-info"
+  ],
+  "context": "Progress Bar Progress Bar Start",
+  "id": "",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "progress"
+   ],
+   "id": "progressBar",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   263,
+   0,
+   16
+  ],
+  "tag": "div",
+  "text": "0%",
+  "visible": true
+ },
+ "/progress-bar :: #resetButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-3",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Progress Bar Progress Bar 100%",
+  "id": "resetButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "progressBarContainer",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   295,
+   71,
+   38
+  ],
+  "tag": "button",
+  "text": "Reset",
+  "visible": true
+ },
+ "/progress-bar :: #startStopButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "mt-3",
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Progress Bar Progress Bar 0%",
+  "id": "startStopButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "progressBarContainer",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   295,
+   65,
+   38
+  ],
+  "tag": "button",
+  "text": "Start",
+  "visible": true
+ },
+ "/radio-button :: #impressiveRadio": {
+  "attrs": {
+   "type": "radio"
+  },
+  "classes": [
+   "form-check-input"
+  ],
+  "context": "Impressive",
+  "id": "impressiveRadio",
+  "label": "Impressive",
+  "name": "like",
+  "parent": {
+   "classes": [
+    "col-auto",
+    "form-check"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   407,
+   267,
+   16,
+   16
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/radio-button :: #noRadio": {
+  "attrs": {
+   "type": "radio"
+  },
+  "classes": [
+   "form-check-input",
+   "disabled"
+  ],
+  "context": "No",
+  "id": "noRadio",
+  "label": "No",
+  "name": "like",
+  "parent": {
+   "classes": [
+    "col-auto",
+    "form-check"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   530,
+   267,
+   16,
+   16
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/radio-button :: #yesRadio": {
+  "attrs": {
+   "type": "radio"
+  },
+  "classes": [
+   "form-check-input"
+  ],
+  "context": "Yes",
+  "id": "yesRadio",
+  "label": "Yes",
+  "name": "like",
+  "parent": {
+   "classes": [
+    "col-auto",
+    "form-check"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   267,
+   16,
+   16
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/radio-button :: label[for=impressiveRadio]": {
+  "attrs": {
+   "for": "impressiveRadio"
+  },
+  "classes": [
+   "form-check-label"
+  ],
+  "context": "Yes No",
+  "id": "",
+  "label": "Impressive",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-auto",
+    "form-check"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   431,
+   263,
+   87,
+   24
+  ],
+  "tag": "label",
+  "text": "Impressive",
+  "visible": true
+ },
+ "/radio-button :: label[for=yesRadio]": {
+  "attrs": {
+   "for": "yesRadio"
+  },
+  "classes": [
+   "form-check-label"
+  ],
+  "context": "Impressive No",
+  "id": "",
+  "label": "Yes",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-auto",
+    "form-check"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   369,
+   187,
+   26,
+   24
+  ],
+  "tag": "label",
+  "text": "Yes",
+  "visible": true
+ },
+ "/radio-button :: p .text-success": {
+  "attrs": {},
+  "classes": [
+   "text-success"
+  ],
+  "context": "You have selected",
+  "id": "",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "mt-3"
+   ],
+   "id": "",
+   "tag": "p"
+  },
+  "rect": [
+   494,
+   307,
+   26,
+   19
+  ],
+  "tag": "span",
+  "text": "Yes",
+  "visible": true
+ },
+ "/select-menu :: #cars": {
+  "attrs": {},
+  "classes": [],
+  "context": "Standard multi select",
+  "id": "cars",
+  "label": "",
+  "name": "cars",
+  "parent": {
+   "classes": [
+    "col-md-6",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   681,
+   49,
+   82
+  ],
+  "tag": "select",
+  "text": "Volvo Saab Opel Audi",
+  "visible": true
+ },
+ "/select-menu :: #oldSelectMenu": {
+  "attrs": {},
+  "classes": [],
+  "context": "",
+  "id": "oldSelectMenu",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   443,
+   92,
+   23
+  ],
+  "tag": "select",
+  "text": "",
+  "visible": true
+ },
+ "/slider :: #slider": {
+  "attrs": {
+   "type": "range",
+   "value": "25"
+  },
+  "classes": [
+   "range-slider",
+   "range-slider--primary"
+  ],
+  "context": "",
+  "id": "slider",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "range-slider__wrap"
+   ],
+   "id": "",
+   "tag": "span"
+  },
+  "rect": [
+   345,
+   147,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/slider :: #sliderValue": {
+  "attrs": {
+   "value": "60"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Slider",
+  "id": "sliderValue",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-3"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1168,
+   223,
+   250,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/tabs :: #demo-tab-more": {
+  "attrs": {
+   "role": "tab",
+   "type": "button"
+  },
+  "classes": [
+   "nav-link",
+   "disabled"
+  ],
+  "context": "What Origin Use",
+  "id": "demo-tab-more",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "nav-item"
+   ],
+   "id": "",
+   "tag": "li"
+  },
+  "rect": [
+   567,
+   263,
+   74,
+   42
+  ],
+  "tag": "button",
+  "text": "More",
+  "visible": true
+ },
+ "/tabs :: #demo-tab-origin": {
+  "attrs": {
+   "role": "tab",
+   "type": "button"
+  },
+  "classes": [
+   "nav-link"
+  ],
+  "context": "What Use More",
+  "id": "demo-tab-origin",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "nav-item"
+   ],
+   "id": "",
+   "tag": "li"
+  },
+  "rect": [
+   421,
+   263,
+   82,
+   42
+  ],
+  "tag": "button",
+  "text": "Origin",
+  "visible": true
+ },
+ "/tabs :: #demo-tabpane-origin": {
+  "attrs": {
+   "role": "tabpanel"
+  },
+  "classes": [
+   "fade",
+   "tab-pane",
+   "active",
+   "show"
+  ],
+  "context": "Tabs Details about Lorem Ipsum What Origin Use More",
+  "id": "demo-tabpane-origin",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "tab-content"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   321,
+   1074,
+   232
+  ],
+  "tag": "div",
+  "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature",
+  "visible": true
+ },
+ "/tabs :: #demo-tabpane-what": {
+  "attrs": {
+   "role": "tabpanel"
+  },
+  "classes": [
+   "fade",
+   "tab-pane",
+   "active",
+   "show"
+  ],
+  "context": "Tabs Details about Lorem Ipsum What Origin Use More",
+  "id": "demo-tabpane-what",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "tab-content"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   321,
+   1074,
+   120
+  ],
+  "tag": "div",
+  "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ",
+  "visible": true
+ },
+ "/text-box :: #currentAddress": {
+  "attrs": {
+   "placeholder": "Current Address"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Current Address",
+  "id": "currentAddress",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   315,
+   799,
+   134
+  ],
+  "tag": "textarea",
+  "text": "",
+  "visible": true
+ },
+ "/text-box :: #output #currentAddress": {
+  "attrs": {},
+  "classes": [
+   "mb-1"
+  ],
+  "context": "Name:Jane Doe Email:jane@example.com Permananet Address :2 Side Ave",
+  "id": "currentAddress",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "border",
+    "col-md-12",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   346,
+   718,
+   1072,
+   24
+  ],
+  "tag": "p",
+  "text": "Current Address :1 Main St",
+  "visible": true
+ },
+ "/text-box :: #output #email": {
+  "attrs": {},
+  "classes": [
+   "mb-1"
+  ],
+  "context": "Name:Jane Doe Current Address :1 Main St Permananet Address :2 Side Ave",
+  "id": "email",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "border",
+    "col-md-12",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   346,
+   690,
+   1072,
+   24
+  ],
+  "tag": "p",
+  "text": "Email:jane@example.com",
+  "visible": true
+ },
+ "/text-box :: #output #name": {
+  "attrs": {},
+  "classes": [
+   "mb-1"
+  ],
+  "context": "Email:jane@example.com Current Address :1 Main St Permananet Address :2 Side Ave",
+  "id": "name",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "border",
+    "col-md-12",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   346,
+   662,
+   1072,
+   24
+  ],
+  "tag": "p",
+  "text": "Name:Jane Doe",
+  "visible": true
+ },
+ "/text-box :: #output #permanentAddress": {
+  "attrs": {},
+  "classes": [
+   "mb-1"
+  ],
+  "context": "Name:Jane Doe Email:jane@example.com Current Address :1 Main St",
+  "id": "permanentAddress",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "border",
+    "col-md-12",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   346,
+   746,
+   1072,
+   24
+  ],
+  "tag": "p",
+  "text": "Permananet Address :2 Side Ave",
+  "visible": true
+ },
+ "/text-box :: #permanentAddress": {
+  "attrs": {},
+  "classes": [
+   "form-control"
+  ],
+  "context": "Permanent Address",
+  "id": "permanentAddress",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   457,
+   799,
+   134
+  ],
+  "tag": "textarea",
+  "text": "",
+  "visible": true
+ },
+ "/text-box :: #submit": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Full Name Email Current Address Permanent Address",
+  "id": "submit",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "text-right",
+    "col-md-2",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1259,
+   599,
+   83,
+   38
+  ],
+  "tag": "button",
+  "text": "Submit",
+  "visible": true
+ },
+ "/text-box :: #userEmail": {
+  "attrs": {
+   "placeholder": "name@example.com",
+   "type": "email"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Email",
+  "id": "userEmail",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   269,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/text-box :: #userName": {
+  "attrs": {
+   "placeholder": "Full Name",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Full Name",
+  "id": "userName",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   619,
+   223,
+   799,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/tool-tips :: #buttonToolTip": {
+  "attrs": {
+   "role": "tooltip"
+  },
+  "classes": [
+   "fade",
+   "show",
+   "tooltip",
+   "bs-tooltip-end"
+  ],
+  "context": "",
+  "id": "buttonToolTip",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "body"
+  },
+  "rect": [
+   509,
+   257,
+   200,
+   50
+  ],
+  "tag": "div",
+  "text": "You hovered over the Button",
+  "visible": true
+ },
+ "/tool-tips :: #toolTipButton": {
+  "attrs": {
+   "type": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-success"
+  ],
+  "context": "Practice Tool Tips",
+  "id": "toolTipButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "buttonToolTopContainer",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   263,
+   158,
+   38
+  ],
+  "tag": "button",
+  "text": "Hover me to see",
+  "visible": true
+ },
+ "/upload-download :: #downloadButton": {
+  "attrs": {
+   "href": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUSEhAVFRUVFQ8VFRUVEA8VEBUPFRUWFhUVFRUYHSggGBolHRUVITEhJ",
+   "role": "button"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "Upload and Download",
+  "id": "downloadButton",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   147,
+   106,
+   38
+  ],
+  "tag": "a",
+  "text": "Download",
+  "visible": true
+ },
+ "/upload-download :: #uploadFile": {
+  "attrs": {
+   "type": "file"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Upload and Download Download",
+  "id": "uploadFile",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "form"
+  },
+  "rect": [
+   345,
+   233,
+   1074,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/upload-download :: #uploadedFilePath": {
+  "attrs": {},
+  "classes": [],
+  "context": "Upload and Download Download",
+  "id": "uploadedFilePath",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   345,
+   347,
+   1074,
+   24
+  ],
+  "tag": "p",
+  "text": "C:\\fakepath\\resume.txt",
+  "visible": true
+ },
+ "/webtables :: #age": {
+  "attrs": {
+   "placeholder": "Age",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Age",
+  "id": "age",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-2",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   775,
+   260,
+   108,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #delete-record-2": {
+  "attrs": {
+   "title": "Delete"
+  },
+  "classes": [],
+  "context": "Alden Cantrell 45 alden@example.com 12000 Compliance",
+  "id": "delete-record-2",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "action-buttons"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1340,
+   379,
+   24,
+   19
+  ],
+  "tag": "span",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #department": {
+  "attrs": {
+   "placeholder": "Department",
+   "type": "text",
+   "value": "Insurance"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Department",
+  "id": "department",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-6",
+    "col-sm-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   775,
+   344,
+   371,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #edit-record-1": {
+  "attrs": {
+   "title": "Edit"
+  },
+  "classes": [
+   "mr-2"
+  ],
+  "context": "Cierra Vega 39 cierra@example.com 10000 Insurance",
+  "id": "edit-record-1",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "action-buttons"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1316,
+   337,
+   24,
+   19
+  ],
+  "tag": "span",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #firstName": {
+  "attrs": {
+   "placeholder": "First Name",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "First Name",
+  "id": "firstName",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-6",
+    "col-sm-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   775,
+   106,
+   371,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #lastName": {
+  "attrs": {
+   "placeholder": "Last Name",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Last Name",
+  "id": "lastName",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-6",
+    "col-sm-6"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   775,
+   164,
+   371,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #registration-form-modal": {
+  "attrs": {},
+  "classes": [
+   "modal-title",
+   "h4"
+  ],
+  "context": "First Name Last Name Email Age Salary Department Submit",
+  "id": "registration-form-modal",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "modal-header"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   577,
+   45,
+   213,
+   36
+  ],
+  "tag": "div",
+  "text": "Registration Form",
+  "visible": true
+ },
+ "/webtables :: #salary": {
+  "attrs": {
+   "placeholder": "Salary",
+   "type": "text",
+   "value": "10000"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Salary",
+  "id": "salary",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   775,
+   269,
+   569,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #searchBox": {
+  "attrs": {
+   "placeholder": "Type to search",
+   "type": "text"
+  },
+  "classes": [
+   "form-control"
+  ],
+  "context": "Add",
+  "id": "searchBox",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "mb-3",
+    "input-group"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   983,
+   155,
+   382,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #submit": {
+  "attrs": {
+   "type": "submit"
+  },
+  "classes": [
+   "btn",
+   "btn-primary"
+  ],
+  "context": "First Name Last Name Email Age Salary Department",
+  "id": "submit",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "text-right",
+    "col-md-2",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   1235,
+   377,
+   83,
+   38
+  ],
+  "tag": "button",
+  "text": "Submit",
+  "visible": true
+ },
+ "/webtables :: #userEmail": {
+  "attrs": {
+   "placeholder": "name@example.com",
+   "type": "text"
+  },
+  "classes": [
+   "mr-sm-2",
+   "form-control"
+  ],
+  "context": "Email",
+  "id": "userEmail",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "col-md-9",
+    "col-sm-12"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   775,
+   214,
+   569,
+   38
+  ],
+  "tag": "input",
+  "text": "",
+  "visible": true
+ },
+ "/webtables :: #userForm": {
+  "attrs": {},
+  "classes": [
+   "was-validated"
+  ],
+  "context": "Registration Form",
+  "id": "userForm",
+  "label": "",
+  "name": "",
+  "parent": {
+   "classes": [
+    "modal-body"
+   ],
+   "id": "",
+   "tag": "div"
+  },
+  "rect": [
+   577,
+   122,
+   766,
+   330
+  ],
+  "tag": "form",
+  "text": "First Name Last Name Email Age Salary Department Submit",
+  "visible": true
+ }
+}

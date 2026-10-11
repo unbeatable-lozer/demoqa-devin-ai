@@ -1,7 +1,7 @@
 import re
 
 import pytest
-from playwright.sync_api import expect
+from healing import expect
 
 from pages.widgets import AccordionPage, ProgressBarPage, SelectMenuPage, SliderPage, TabsPage, ToolTipsPage
 
