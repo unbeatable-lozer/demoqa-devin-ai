@@ -1,5 +1,5 @@
 import pytest
-from playwright.sync_api import expect
+from healing import expect
 
 from pages.interactions import DroppablePage, SortablePage
 
