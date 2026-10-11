@@ -26,6 +26,7 @@ class HealingLocator(Locator):
         super().__init__(base._impl_obj)
         self._hp, self._selector, self._healable = page, selector, healable
         self._plain = base
+        self._origin = page._healer.frames_in_sources(3) if healable else []
 
     @property
     def _healer(self) -> Healer:
@@ -56,7 +57,7 @@ class HealingLocator(Locator):
                 return self._plain
             except PWTimeout:
                 pass
-        result = self._healer.heal(self._hp._page, self._selector)
+        result = self._healer.heal(self._hp._page, self._selector, self._origin)
         return self._hp._page.locator(result.selector) if result else self._plain
 
     def wait_for(self, *args, **kwargs):

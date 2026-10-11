@@ -148,3 +148,11 @@ def test_disabled_healing_fails_normally(hpage, healer):
 ])
 def test_fingerprint_from_selector(selector, expected):
     assert fingerprint_from_selector(selector) == expected
+
+
+def test_reports_where_locator_was_defined_and_used(hpage, healer):
+    hpage.set_content('<button id="submit-btn">Send</button>')
+    button = hpage.locator("#submit")  # e.g. a page-object property
+    button.click()
+    codes = [s["code"] for s in healer.events[0]["call_sites"]]
+    assert codes[:2] == ['button = hpage.locator("#submit")  # e.g. a page-object property', "button.click()"]

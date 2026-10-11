@@ -2,7 +2,8 @@
 import fcntl
 import json
 import os
-import traceback
+import linecache
+import sys
 from contextlib import contextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -96,7 +97,7 @@ class Healer:
         self._new.clear()
 
     # ---- healing ----------------------------------------------------------
-    def heal(self, page, selector: str) -> HealResult | None:
+    def heal(self, page, selector: str, origin: list | None = None) -> HealResult | None:
         k = self.key(page.url, selector)
         ref, source = self.baseline.get(k) or self._new.get(k), "baseline"
         if not ref:
@@ -112,34 +113,44 @@ class Healer:
         result_meta = dict(original=selector, page=page.url, source=source, score=round(best, 3),
                            runner_up=round(runner_up, 3), parts={k: round(v, 2) for k, v in parts.items()})
         if best < self.config.threshold or best - runner_up < self.config.margin:
-            self._log(dict(result_meta, healed=None, status="refused"))
+            self._log(origin, dict(result_meta, healed=None, status="refused"))
             return None
         for sel in page.evaluate(dom.BUILD_SELECTORS, cand["idx"]):
             try:
                 if page.locator(sel).count() == 1:
                     self.cache[k] = sel
-                    self._log(dict(result_meta, healed=sel, status="healed"))
+                    self._log(origin, dict(result_meta, healed=sel, status="healed"))
                     return HealResult(sel, best, source, parts, runner_up)
             except Exception:
                 continue
-        self._log(dict(result_meta, healed=None, status="no-unique-selector"))
+        self._log(origin, dict(result_meta, healed=None, status="no-unique-selector"))
         return None
 
     @staticmethod
-    def call_sites() -> list[dict]:
-        """Lines in page objects/tests (innermost first) that led to the failing selector."""
+    def frames_in_sources(skip: int = 1) -> list[tuple[str, int]]:
+        """(file, line) of page-object/test frames on the current stack, innermost first."""
+        out, frame = [], sys._getframe(skip)
+        while frame:
+            path = Path(frame.f_code.co_filename).resolve()
+            if ROOT in path.parents and ".venv" not in path.parts and path.parent != ROOT / "healing":
+                rel = str(path.relative_to(ROOT))
+                if rel.startswith(("pages/", "tests/")):
+                    out.append((rel, frame.f_lineno))
+            frame = frame.f_back
+        return out
+
+    @classmethod
+    def call_sites(cls, origin: list | None = None) -> list[dict]:
+        """Where the locator was defined (origin) plus where it was used, deduplicated."""
         sites = []
-        for fr in reversed(traceback.extract_stack()):
-            path = Path(fr.filename).resolve()
-            if ROOT not in path.parents or ".venv" in path.parts or path.parent == ROOT / "healing":
-                continue
-            rel = str(path.relative_to(ROOT))
-            if rel.startswith(("pages/", "tests/")):
-                sites.append({"file": rel, "line": fr.lineno, "code": (fr.line or "").strip()})
+        for rel, no in (origin or []) + cls.frames_in_sources(2):
+            site = {"file": rel, "line": no, "code": linecache.getline(str(ROOT / rel), no).strip()}
+            if site not in sites:
+                sites.append(site)
         return sites
 
-    def _log(self, event: dict) -> None:
-        event["call_sites"] = self.call_sites()
+    def _log(self, origin: list | None, event: dict) -> None:
+        event["call_sites"] = self.call_sites(origin)
         event["test"] = os.environ.get("PYTEST_CURRENT_TEST", "").rsplit(" (", 1)[0]
         self.events.append(event)
         with _locked(self.config.events_path, "a") as fh:
